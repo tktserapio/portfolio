@@ -8,21 +8,20 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
-  docker,
+  java,
+  swift,
   meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  smartnotes,
   threejs,
+  python,
+  matttr,
+  streamlinesets,
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +53,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "AI/ML Developer",
     icon: creator,
   },
 ];
@@ -81,20 +80,20 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "python",
+    icon: python,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "swift",
+    icon: swift,
   },
   {
     name: "Three JS",
@@ -103,14 +102,6 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -198,67 +189,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Smart Notes",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "LangChain",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: smartnotes,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Streamline Sets",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Workout app that offers personalized exercises to swimmers. Also trained a machine learning (ML) video action classifier model -- 90.2% accuracy -- to detect exercise form.",
     tags: [
       {
-        name: "react",
+        name: "Swift",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "SwiftUI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CoreML",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: streamlinesets,
+    source_code_link: "https://github.com/tktserapio/StreamlineSets",
   },
   {
-    name: "Trip Guide",
+    name: "Matttr",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A platform for debaters that features condensed transcriptions of arguments on various motions. It uses Natural Language Processing (NLP) to automate transcription of speeches.",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "PyTorch",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: matttr,
+    source_code_link: "https://github.com/tktserapio/matttr/",
   },
 ];
 
