@@ -22,7 +22,7 @@ const App = () => {
         </div>
         <About />
         <Works />
-        <Tech />
+        {/* <Tech /> */}
         <div className="relative z-0">
           <Contact />
         </div>

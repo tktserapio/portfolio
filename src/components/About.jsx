@@ -41,15 +41,15 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm a Computer Science undergraduate student at Brown University. I am
-        a software developer, and I am also deeply interested in integrating 
-        AI and design to create software to address problems in my community.
+        a software developer, and I am also deeply interested in the intersection of 
+        AI and Economics in simulating human interaction using game theory.
       </motion.p>
-
+{/*       
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };

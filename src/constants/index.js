@@ -189,9 +189,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Smart Notes",
+    name: "Fink.ai",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "AI note-taking platform with an integrated LLM-powered chatbot for retrieving notes from a vector embedding database. In the works to expand it to a multi-model agent/assistant.",
     tags: [
       {
         name: "Next.js",
@@ -207,7 +207,7 @@ const projects = [
       },
     ],
     image: smartnotes,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/tktserapio/fink.ai",
   },
   {
     name: "Streamline Sets",
@@ -228,7 +228,7 @@ const projects = [
       },
     ],
     image: streamlinesets,
-    source_code_link: "https://github.com/tktserapio/StreamlineSets",
+    source_code_link: "https://github.com/tktserapio/Stream.ai",
   },
   {
     name: "Matttr",
